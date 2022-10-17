@@ -1,0 +1,31 @@
+<div class="container">
+<article class="pizza_card">
+  <h1 class="pizza_caption">Choose the best pizza for yourself!</h1>
+
+  <!-- Путь к изображениям из HTML-фрагмента такой, как из файла index.html -->
+  <img src="../src/images/pizzas/meat-pizza.jpg" alt=""  data-picture="meat" class="pizza_img"/>
+  <img src="../src/images/pizzas/cheese-pizza.jpg" alt=""  data-picture="cheese" class="pizza_img hidden"/>
+  <img src="../src/images/pizzas/shrimp-pizza.jpg" alt=""  data-picture="shrimp" class="pizza_img hidden"/>
+  <img src="../src/images/pizzas/vegetables-pizza.jpg" alt=""  data-picture="vegetable" class="pizza_img hidden" />
+  <img src="../src/images/pizzas/exotic-pizza.jpg" alt=""  data-picture="exotic" class="pizza_img hidden"/>
+  <img src="../src/images/pizzas/peach-pizza.jpg" alt=""  data-picture="fruit" class="pizza_img hidden"/>
+  
+  <h2 class="pizza_title">Meat Pizza</h2>
+  
+  <ul class="pizza_icon icon_list">
+    <li class="icon_item"><button type="button" data-pizza="meat" class="icon_btn active"><img src="images/icons/icon-meat.png" class="icon_img"/></button></li>
+    <li class="icon_item"><button type="button" data-pizza="cheese" class="icon_btn"><img src="images/icons/icon-cheese.png" class="icon_img"/></button></li>
+    <li class="icon_item"><button type="button" data-pizza="shrimp" class="icon_btn"><img src="images/icons/icon-fish.png" class="icon_img"/></button></li>
+    <li class="icon_item"><button type="button" data-pizza="vegetable" class="icon_btn"><img src="images/icons/icon-tomato.png" class="icon_img"/></button></li>
+    <li class="icon_item"><button type="button" data-pizza="exotic" class="icon_btn"><img src="images/icons/icon-pineapple.png" class="icon_img"/></button></li>
+    <li class="icon_item"><button type="button" data-pizza="fruit" class="icon_btn"><img src="images/icons/icon-apple.png" class="icon_img"/></button></li>
+  </ul>
+  <ul class="pizza_size size_list">
+    <li class="size_item"><button class="size_button active" >25 cm</button></li>
+    <li class="size_item"><button class="size_button">35 cm</button></li>
+  </ul>
+
+<p class="pizza_price">Price: 10$</p>
+  <!-- <div class="background"></div> -->
+</article>
+</div>

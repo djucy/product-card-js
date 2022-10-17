@@ -1,0 +1,14 @@
+[
+  { "pizza": "Meat Pizza", "size": 25, "price": 10, "data": "meat" },
+  { "pizza": "Meat Pizza", "size": 35, "price": 15, "data": "meat" },
+  { "pizza": "Cheese Pizza", "size": 25, "price": 9, "data": "cheese" },
+  { "pizza": "Cheese Pizza", "size": 35, "price": 16, "data": "cheese" },
+  { "pizza": "Shrimp Pizza", "size": 25, "price": 10, "data": "shrimp" },
+  { "pizza": "Shrimp Pizza", "size": 35, "price": 18, "data": "shrimp" },
+  { "pizza": "Vegetable Pizza", "size": 25, "price": 8, "data": "vegetable" },
+  { "pizza": "Vegetable Pizza", "size": 35, "price": 12, "data": "vegetable" },
+  { "pizza": "Exotic Pizza", "size": 25, "price": 9, "data": "exotic" },
+  { "pizza": "Exotic Pizza", "size": 35, "price": 14, "data": "exotic" },
+  { "pizza": "Fruit Pizza", "size": 25, "price": 8, "data": "fruit" },
+  { "pizza": "Fruit Pizza", "size": 35, "price": 12, "data": "fruit" }
+]
